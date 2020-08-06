@@ -1,4 +1,5 @@
 console.log("Cookies: " + navigator.cookieEnabled);
+console.log("Hello World")
 console.log("Browser Language: " + navigator.browserLanguage);
 console.log("Language: " + navigator.language);
 console.log("Platform: " + navigator.platform);
