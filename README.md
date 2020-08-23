@@ -4,7 +4,7 @@ https://cloudresumechallenge.dev/instructions/
 
 This project is designed to demonstrate basic understanding of how to architect a simple serverless application using a wide array of tools.
 
-The front end client view is created using HTML and bootstrap because I am not a UI/UX expert.
+The front end client view is created using HTML and bootstrap.
 
 The front end files are stored and served using Amazon S3. 
 
