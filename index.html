@@ -8,24 +8,39 @@
   <title>Cloud Resume</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 
 <body >
-  <nav class="navbar-expand-lg navbar-light bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
-      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Resume
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./resume.pdf" >PDF</a>
-          <a class="dropdown-item" href="./resume.docx" >Word (.docx)</a>
-        </div>
-      <a class="nav-item nav-link text-light" href="https://www.linkedin.com/in/navie-huynh/">LinkedIn </a>
-      <a class="nav-item nav-link text-light" href="https://github.com/NavieHuynh">Github</a>
-      <a class="nav-item nav-link text-light" href="https://medium.com/@naviehuynh_49819">Medium</a>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link text-light" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="https://www.linkedin.com/in/navie-huynh/">LinkedIn </a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="https://github.com/NavieHuynh">Github</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="https://medium.com/@naviehuynh_49819">Medium</a></li>
+        </ul>
+      
+      
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id ="resumeDropdownLink"role="button"  aria-expanded="false" data-toggle="dropdown" aria-haspopup="true">Resume</a>
+            <div class="dropdown-menu" aria-labelledby="resumeDropdownLink">
+              <a class="dropdown-item" href="./resume.pdf">PDF</a>
+              <a class="dropdown-item" href="./resume.docx">Word</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link text-light">Contact Me</a>
+          </li>
+        </ul>
       
     </div>
   </nav>
